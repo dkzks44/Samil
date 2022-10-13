@@ -16,7 +16,7 @@ function App() {
             <div>예산<input/></div>
             <div>사업장소재지</div>
           </div>
-          <button>진단받기</button>
+          <button>진단받기!!</button>
         </div>
       </div>
     </>
