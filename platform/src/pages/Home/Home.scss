@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding:20px;
+    padding:30px;
     border-bottom: 1px solid black;
     .logo {
         font-size: 30px;
@@ -11,9 +11,64 @@
 
 .main_page {
     text-align: center;
+    padding-top:150px;
+
+    span {
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
     .info_box {
+        margin:auto;
+        margin-top:50px;
+        margin-bottom:50px;
+        padding: 10px;
+        width:150vh;
+        height:20vh;
         display: flex;
         flex-direction: row;
-        
+        justify-content: space-around;
+        border: 1px solid black;
+        font-size: 25px;
+        .job{
+            padding:25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+
+            .job_select {
+                padding:10px;
+            }
+            .job_select:hover {
+                background-color: aqua;
+                transition: all 1.5s;
+                cursor: pointer;
+            }
+        }
+
+        .budget{
+            padding:25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+
+        .workspace{
+            padding:25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    button {
+        width:100px;
+        height: 30px;
     }
 }
