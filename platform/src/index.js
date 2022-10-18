@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import GlobalStyles from './styles/GlobalStyles'
 import Router from './Router';
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 
