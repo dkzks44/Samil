@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "./Home.scss"
-import ModalJob from "./components/ModalJob";
+import ModalJob from "./components/ModalJob/ModalJob";
 import Navbar from "../../components/Navbar/Navbar";
 
 function App() {
