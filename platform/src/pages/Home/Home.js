@@ -1,11 +1,15 @@
 import React, {useState} from "react";
+import { useNavigate } from 'react-router';
 import "./Home.scss"
 import ModalJob from "./components/ModalJob/ModalJob";
 import Navbar from "../../components/Navbar/Navbar";
 
 function App() {
   const [modalJobOpen, setModalJobOpen] = useState(false);
-
+  let navigate = useNavigate();
+  const moveToResult = () => {
+    navigate('/result')
+  }
   return (
     <>
     <Navbar/>
@@ -27,7 +31,7 @@ function App() {
               <div className="workspace_select">사업장 위치를 입력해 주세요.</div>
             </div>
           </div>
-          <button>진단받기</button>
+          <button onClick={moveToResult}>진단받기</button>
         </div>
       </div>
     </>
