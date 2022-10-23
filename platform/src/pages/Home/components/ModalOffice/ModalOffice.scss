@@ -1,0 +1,41 @@
+.modalOffice {
+    position:fixed;
+    width:85%;
+    height:50%;
+    padding:30px;
+    border: 1px solid black;
+    background-color: white;
+    opacity: 0.9;
+    z-index: 1;
+    left:50%;
+    transform: translate(-50%,10%);
+    .questionOffice{
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .inputOffice{
+        width:550px;
+        padding:10px;
+        padding-right:150px;
+        font-size: 55px;
+        text-align: right;
+        float: right;
+        margin-right:15%;
+        margin-top:5%;
+        border-style: none;
+        outline: none;
+        background-color: white;
+        border-bottom: 3px solid black;
+    }
+
+    button {
+        position:fixed;
+        padding: 10px 30px;
+        font-size:20px;
+        right:10%;
+        bottom:10%;
+        background-color: white;
+        // border-style: none;
+    }
+}
