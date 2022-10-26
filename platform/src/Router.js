@@ -4,12 +4,14 @@ import Main from './pages/Home/Home';
 import Login from './pages/Login/Login'
 import Introduce from "./pages/Introduce/Introduce";
 import Result from "./pages/Result/Result";
+import Navbar from "./components/Navbar/Navbar";
 import KaKaoAuth from "./pages/Login/components/KakaoLogIn/KakaoAuth";
 
 const Router = () => {
     return (
         <>
             <BrowserRouter>
+            <Navbar/>
                 <Routes>
                         <Route path="/" element={<Main/>}/>
                         <Route path="/login" element={<Login/>}/>

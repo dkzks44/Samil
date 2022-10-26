@@ -25,7 +25,7 @@ const Navbar = ({testLogIn}) => {
           </div> :
         <div className="menu">
             <div onClick={moveToIntroduce}>서비스소개</div>
-            <button onClick={moveToLogIn}>로그인</button>
+            <div onClick={moveToLogIn}>로그인</div>
           </div>}
         </div>
     )

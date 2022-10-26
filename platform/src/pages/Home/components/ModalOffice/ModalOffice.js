@@ -29,7 +29,7 @@ const ModalOffice = ({setOfficeInfo,setModalOfficeOpen}) => {
         <div className="modalOffice">
             <div className="questionOffice">어디서 일을 하고 계신가요?</div>
             <input className="inputOffice" autoFocus onClick={()=>setVisible(true)} defaultValue={officeResult} readOnly/>
-            {visible ? <DaumPostcode onComplete={handleComplete}/> : null}
+            {visible ? <DaumPostcode style={{position:"fixed",left:"450px",width:"40%", height:"100%", border:"3px solid black"}} onComplete={handleComplete}/> : null}
             <button onClick={()=>setModalOfficeOpen(false)}>작성완료</button>
         </div>
     )
