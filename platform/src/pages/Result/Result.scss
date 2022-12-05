@@ -1,0 +1,115 @@
+.resultDiv {
+    height:100%;
+    .sectionTitle {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+
+    .dataDiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 700px;
+        flex-direction: row;
+
+    .inputDataWrap{
+        margin:10px;
+        padding:10px;
+        border: 2px solid black;
+        border-radius: 5px;
+        
+        .inputDataDiv{
+            margin:10px;
+            height: 100%;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            .dataName{
+                margin:10px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .inputData{
+                font-size: 18px;
+                padding:45px;
+            }
+        }
+    }
+
+    .midSection{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        .rankingDiv{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            flex-direction: row;
+            margin: 20px;
+            .keywordDiv{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .rankNum{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            div{
+                margin-left:10px;
+            }
+        }
+        .data1{
+            margin:10px;
+            padding:10px;
+            border: 2px solid black;
+            border-radius: 5px;
+
+        }
+    
+        .data2{
+            margin:10px;
+            padding:10px;
+            border: 2px solid black;
+            border-radius: 5px;
+    
+        }
+
+    }
+    .data3{
+        margin:10px;
+        padding:10px;
+        border: 2px solid black;
+        border-radius: 5px;
+        .recProductDiv{
+            .rankingDiv{
+                display: flex;
+                text-align: center;
+                align-items: center;
+                flex-direction: row;
+                margin: 20px;
+                .keywordDiv{
+                display: grid;
+                grid-template-columns: 0.7fr 0.7fr 1.3fr 1.3fr;
+                }
+                .rankNum{
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                div{
+                margin-left:10px;
+                }
+        }
+        .recProductImageDiv{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            text-align: center;
+            
+            .recProductImage{
+                width:100px;
+                height: 100px;
+            }
+        }
+    }
+
+    }
+}
+}
