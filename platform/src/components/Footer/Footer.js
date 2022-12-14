@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
 
             <div className="footerForthLine">
-                Copyright 2022 All Rights Reserved. Powered by jrg
+                Copyright 2022 All Rights Reserved. Powered by jrg.
             </div>
         </div>
     )
